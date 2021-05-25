@@ -18,13 +18,10 @@
     margin-right: 8px;
 }
 
-.document-2 {
-
+.suggest-input {
+    padding: 16px !important;
 }
 
-.document__container {
-
-}
 
 .mobileheader {
     display: none;
