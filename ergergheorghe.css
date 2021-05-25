@@ -80,6 +80,7 @@
         align-items: center;
         width: 100%;
         background: #333;
+        height: 40px;
     }
 
     .mobileheader__menu {
@@ -124,8 +125,7 @@
     }
 
     .main-block[data-v-5aeace88] {
-        height: calc(75vh - 50px) !important;
-        min-height: 414px !important;
+        height: 330px !important;
         justify-content: center !important;
         padding: 90px 15px 8px !important;
     }
@@ -141,19 +141,26 @@
 
     .main-block-field .main-block-field--suggestions[data-v-5aeace88] {
         grid-area: 1 / 1 / 2 / 3 !important;
+        height: 48px !important;
     }
 
     .main-block-field .main-block-field--occupied[data-v-5aeace88] {
         grid-area: 2 / 1 / 3 / 3 !important;
+        height: 48px !important;
     }
 
     .main-block-field .main-block-field--guest[data-v-5aeace88] {
         grid-area: 3 / 1 / 4 / 3 !important;
+        height: 48px !important;
     }
 
     .main-block-field .btn-search-main[data-v-5aeace88] {
         grid-area: 4 / 1 / 5 / 3 !important;
+        height: 48px !important;
         margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .main-block-select-city[data-v-5aeace88] {
@@ -163,7 +170,7 @@
     .main-block-note[data-v-5aeace88], .main-block-title[data-v-5aeace88] {
         font-size: 22px;
         font-weight: 700;
-        margin-bottom: 10px;
+        margin-bottom: 4px;
     }
 
     .descr {
@@ -173,5 +180,33 @@
 
     .main-block--link-city[data-v-5aeace88] {
         display: none !important;
+    }
+
+    .suggest-input {
+        border-radius: 3px !important;
+        height: 48px !important;
+        padding: 14px 8px 14px !important;
+        width: 100% !important;
+    }
+
+    .suggest-label[data-v-c517a248] {
+        height: 48px;
+        padding: 0 20px;
+    }
+
+    .main-block-field--occupied__in[data-v-5aeace88], .main-block-field--occupied__out[data-v-5aeace88] {
+        border-radius: 3px !important;
+        height: 48px !important;
+        padding: 14px 8px 14px !important;
+    }
+
+    .main-block-field--occupied__in .title[data-v-5aeace88], .main-block-field--occupied__out .title[data-v-5aeace88] {
+        margin-bottom: -11px;
+        padding-top: 0;
+    }
+
+    .select-guests--btn[data-v-d2cc700a] {
+        border-radius: 2px;
+        height: 48px;
     }
 }
